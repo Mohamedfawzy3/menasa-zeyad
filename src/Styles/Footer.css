@@ -1,0 +1,26 @@
+.footer {
+    background-color: #eef3fe;
+  
+    
+  }
+  .logo p{
+    color: var(--main-color);
+    margin-bottom: -12px;
+    font-size: 25px;
+    }
+ .logo span{
+        display: inline-block;
+    font-size: 12px;
+    color: var(--second-color);
+    
+    }
+  .footer .title {
+    font-size: 17px;
+    color: var(--third-color);
+  }
+  @media (max-width: 768px) {
+    .footer .title {
+      font-size: 14px;
+    }
+    
+  }

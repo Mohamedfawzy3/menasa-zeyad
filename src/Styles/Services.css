@@ -1,0 +1,25 @@
+.sercice-inner {
+    min-height: 308px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  .sercice-inner:hover {
+    background-color: #eef3fe;
+    scale: 1.03;
+  }
+  .sercice-inner:hover img {
+    scale: 1.1;
+  }
+  .services img {
+    transition: all 0.3s ease-in-out;
+    width: 85px;
+  }
+  .services h3 {
+    color: var(--third-color);
+    font-size: 24px;
+    line-height: 1.6;
+    transition: all 0.3s ease-in-out;
+  }
+  .sercice-inner:hover h3 {
+    color: var(--main-color) !important;
+  }

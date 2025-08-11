@@ -1,0 +1,29 @@
+.layout {
+
+}
+.layout h1 {
+  color: #2395f8;
+  font-size: 68px !important;
+}
+.layout p {
+  font-size: 24px;
+  color: var(--third-color);
+}
+
+.layout .odoo-img {
+  width: 60%;
+}
+@media (max-width: 768px) {
+  .layout h1 {
+    font-size: 38px;
+  }
+  .layout p {
+    font-size: 18px;
+  }
+  .layout .odoo-img {
+    width: 80%;
+  }
+}
+.layout .main-img {
+  width: 80%;
+}

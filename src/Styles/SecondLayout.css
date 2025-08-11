@@ -1,0 +1,23 @@
+.shower {
+    background: white;
+  }
+  .shower h2 {
+    color: var(--main-color);
+  }
+  .shower p {
+    color: var(--third-color);
+  }
+  .shower img {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+  }
+  .shower h4 {
+    color: var(--main-color);
+  }
+  @media (max-width: 768px) {
+    .shower img {
+      width: 60px;
+      height: 60px;
+    }
+  }
