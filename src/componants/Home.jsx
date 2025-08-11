@@ -57,7 +57,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="bg-primary text-white py-5">
         <div className="container text-center">
-          <h1 className="display-4 fw-bold">منصة SRM التعليمية</h1>
+          <h1 className="display-4 fw-bold">منصة iLearn التعليمية</h1>
           <p className="lead">استكشف الدورات التعليمية مع أفضل المدرسين</p>
           <Link to="#who" className="btn btn-light btn-lg mt-3">ابدأ الآن</Link>
         </div>
