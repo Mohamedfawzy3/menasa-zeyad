@@ -79,8 +79,10 @@ export default function Home() {
                 <Link to={`/teacher/${subject.id}`} className="text-decoration-none">
                   <div className="rounded-3 overflow-hidden">
                     <div className="box position-relative">
+                      {console.log('subject:', subject.image_url)
+                      }
                       <img
-                        src="https://pbekewbfkxdiwajvohqt.supabase.co/storage/v1/object/public/images/main.jpeg"
+                        src={subject.image_url}
                         className="w-100 h-100"
                         alt={subject.name}
                         onError={(e) => (e.target.src = '/fallback-image.jpg')}
